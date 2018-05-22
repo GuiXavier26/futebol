@@ -1,0 +1,64 @@
+ :root {
+     --main-bg-color: #5A2468;
+     --futvsputaria-bg-color: white;
+     --romantismo-bg-color: #EE527C;
+     --campeoes-bg-color: white;
+     --argentina-bg-color: #3BA3B2;
+     --argentina-title-bg-color: white;
+     --russia-bg-color: #292A66;
+     --alemanha-bg-color: white;
+ }
+
+ body {
+     margin: 0;
+ }
+ 
+ .block {
+     max-width: 1170px;
+     margin: auto;
+     display: block;
+     width: 100%;
+ }
+
+ .apresentation {
+    background: var(--main-bg-color);
+}
+
+.putariavsfut {
+    background: var(--futvsputaria-bg-color);
+}
+
+.romantismo {
+    background: var(--romantismo-bg-color);
+}
+
+.campeoes {
+    background: var(--campeoes-bg-color);
+}
+
+.argentina-title {
+    background: var(--argentina-title-bg-color);
+}
+
+.argentina {
+    background: var(--argentina-bg-color);
+}
+
+.russia {
+    background: var(--russia-bg-color);
+}
+
+.alemanha {
+    background: var(--alemanha-bg-color);
+}
+
+.division {
+    height: 50px;
+}
+
+@media (min-width: 920px) {
+    .division {
+        height: 100px;
+    }
+}
+
