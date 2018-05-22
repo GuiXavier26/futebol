@@ -77,6 +77,12 @@
     color: var(--main-bg-color);
 }
 
+.footer-bold-link {
+    color: var(--main-bg-color);
+    font-size: 26px;
+}
+
+
 .footer {
     padding: 100px;
     background: var(--footer-bg-color);
