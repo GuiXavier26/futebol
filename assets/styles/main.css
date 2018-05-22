@@ -7,10 +7,13 @@
      --argentina-title-bg-color: white;
      --russia-bg-color: #292A66;
      --alemanha-bg-color: white;
+     --footer-bg-color: #50B169;
  }
 
  body {
      margin: 0;
+     font-family: 'Source Sans Pro', sans-serif;
+     -webkit-font-smoothing: antialiased;
  }
  
  .block {
@@ -54,6 +57,25 @@
 
 .division {
     height: 50px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.img-footer {
+    margin-bottom: 30px 
+}
+
+.footer-bold {
+    color: var(--main-bg-color);
+}
+
+.footer {
+    padding: 100px;
+    background: var(--footer-bg-color);
 }
 
 @media (min-width: 920px) {
