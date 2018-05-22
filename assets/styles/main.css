@@ -15,6 +15,10 @@
      font-family: 'Source Sans Pro', sans-serif;
      -webkit-font-smoothing: antialiased;
  }
+
+ a:link {
+    color: var(--main-bg-color);
+ }
  
  .block {
      max-width: 1170px;
