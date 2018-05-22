@@ -17,9 +17,11 @@
  }
 
  a:link {
-    color: var(--main-bg-color);
+     color: var(--main-bg-color);
+     text-decoration: none;
+     font-family: 'Khand', sans-serif;
  }
- 
+
  .block {
      max-width: 1170px;
      margin: auto;
@@ -28,77 +30,74 @@
  }
 
  .apresentation {
-    background: var(--main-bg-color);
-}
+     background: var(--main-bg-color);
+ }
 
-.putariavsfut {
-    background: var(--futvsputaria-bg-color);
-}
+ .putariavsfut {
+     background: var(--futvsputaria-bg-color);
+ }
 
-.romantismo {
-    background: var(--romantismo-bg-color);
-}
+ .romantismo {
+     background: var(--romantismo-bg-color);
+ }
 
-.campeoes {
-    background: var(--campeoes-bg-color);
-}
+ .campeoes {
+     background: var(--campeoes-bg-color);
+ }
 
-.argentina-title {
-    background: var(--argentina-title-bg-color);
-}
+ .argentina-title {
+     background: var(--argentina-title-bg-color);
+ }
 
-.argentina {
-    background: var(--argentina-bg-color);
-}
+ .argentina {
+     background: var(--argentina-bg-color);
+ }
 
-.russia {
-    background: var(--russia-bg-color);
-}
+ .russia {
+     background: var(--russia-bg-color);
+ }
 
-.alemanha {
-    background: var(--alemanha-bg-color);
-}
+ .alemanha {
+     background: var(--alemanha-bg-color);
+ }
 
-.division {
-    height: 50px;
-}
+ .division {
+     height: 50px;
+ }
 
-.division-sm {
-    height: 25px;
-}
+ .division-sm {
+     height: 25px;
+ }
 
-.footer-text {
-    text-align: center;
-    font-size: 22px;
-    color: white;
-}
+ .footer-text {
+     text-align: center;
+     font-size: 22px;
+     color: white;
+ }
 
-.img-footer {
-    margin-bottom: 30px 
-}
+ .img-footer {
+     margin-bottom: 30px
+ }
 
-.footer-bold {
-    color: var(--main-bg-color);
-}
+ .footer-bold {
+     color: var(--main-bg-color);
+ }
 
-.footer-bold-link {
-    color: var(--main-bg-color);
-    font-size: 26px;
-}
+ .footer-bold-link {
+     color: var(--main-bg-color);
+     font-size: 26px;
+ }
 
+ .footer {
+     padding: 100px;
+     background: var(--footer-bg-color);
+ }
 
-.footer {
-    padding: 100px;
-    background: var(--footer-bg-color);
-}
-
-@media (min-width: 920px) {
-    .division {
-        height: 100px;
-    }
-
-    .division-sm {
-        height: 40px;
-    }
-}
-
+ @media (min-width: 920px) {
+     .division {
+         height: 100px;
+     }
+     .division-sm {
+         height: 40px;
+     }
+ }
