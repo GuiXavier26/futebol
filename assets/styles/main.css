@@ -16,13 +16,6 @@
      -webkit-font-smoothing: antialiased;
  }
 
- a:link {
-     color: var(--main-bg-color);
-     text-decoration: none;
-     font-family: 'Khand', sans-serif;
-     font-weight: bold;
- }
-
  .block {
      max-width: 1170px;
      margin: auto;
@@ -70,6 +63,17 @@
      height: 25px;
  }
 
+ .header-text {
+    font-size: 16px;
+    color: white;
+    display: block;
+    width: 50%;
+    padding-top: 10px;
+    text-align: end;
+    text-decoration: none;
+    margin: auto;
+}
+
  .footer-text {
      text-align: center;
      font-size: 16px;
@@ -90,6 +94,9 @@
  .footer-bold-link {
      color: var(--main-bg-color);
      font-size: 20px;
+     text-decoration: none;
+     font-family: 'Khand', sans-serif;
+     font-weight: bold;
  }
 
  .footer {
