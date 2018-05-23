@@ -64,18 +64,18 @@
  }
 
  .header-text {
-    text-align: end;
-    color: white;
-    text-decoration: none;
-    padding-top: 20px;
-    width: 95%;
-    font-size: 12px;
-}
+     text-align: end;
+     color: white;
+     text-decoration: none;
+     padding-top: 20px;
+     width: 95%;
+     font-size: 12px;
+ }
 
-.footer-info {
-    display: flex;
-    flex-direction: column;
-}
+ .footer-info {
+     display: flex;
+     flex-direction: column;
+ }
 
  .footer-text {
      text-align: center;
@@ -116,15 +116,15 @@
          height: 40px;
      }
      .footer {
-        padding: 100px;
+         padding: 100px;
      }
      .footer-text {
-     font-size: 22px;
+         font-size: 22px;
      }
      .footer-bold-link {
-        font-size: 26px;
+         font-size: 26px;
      }
      .header-text {
-        font-size: 16px;
+         font-size: 16px;
      }
  }
