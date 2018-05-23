@@ -69,6 +69,12 @@
     text-decoration: none;
     padding-top: 10px;
     width: 95%;
+    font-size: 12px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
 }
 
  .footer-text {
@@ -94,6 +100,7 @@
      text-decoration: none;
      font-family: 'Khand', sans-serif;
      font-weight: bold;
+     margin-top: 10px;
  }
 
  .footer {
@@ -116,5 +123,8 @@
      }
      .footer-bold-link {
         font-size: 26px;
+     }
+     .header-text {
+        font-size: 16px;
      }
  }
